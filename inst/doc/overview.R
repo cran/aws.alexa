@@ -6,7 +6,10 @@
 #  set_secret_key(key="key", secret="secret")
 
 ## ---- eval=FALSE, url_info-----------------------------------------------
-#  url_info("http://www.google.com")
+#  res <- url_info("http://www.google.com")
+#  res <- do.call(cbind, lapply(res[[2]][[1]][[2]], as.data.frame))
+#  dimnames(res) <- list(1:nrow(res),  c("url", "attribute", "title", "description", "online_since"))
+#  return(res)
 
 ## ---- eval=FALSE, traffic_hist-------------------------------------------
 #  traffic <- traffic_history("http://www.google.com")

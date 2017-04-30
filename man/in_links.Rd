@@ -23,10 +23,9 @@ Sites linking to the site
 }
 \examples{
 \dontrun{
-in_links(url="google.com")
+in_links(url = "google.com")
 }
 }
 \references{
 \url{http://docs.aws.amazon.com/AlexaWebInfoService/latest/ApiReference_SitesLinkingInAction.html}
 }
-
