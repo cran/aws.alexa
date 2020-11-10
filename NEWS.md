@@ -1,6 +1,11 @@
+# aws.alexa 0.1.8
+
+* moved http -> https
+* fixes in_links to reflect changes in the object that is returned
+
 # aws.alexa 0.1.7
 
-* fixed a bug in traffic_history. 
+* fixed a bug in traffic_history.
 * changed signature to v4
 * fixed link to vignette in the man
 
@@ -20,8 +25,8 @@
 # aws.alexa 0.1.3
 
 * Two bugs in traffic_history function fixed
-* url_info just returns a list 
- 
+* url_info just returns a list
+
 # aws.alexa 0.1.1
 
 * Exposed `key` and `secret` arguments in functions.

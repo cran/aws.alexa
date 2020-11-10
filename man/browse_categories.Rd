@@ -4,8 +4,12 @@
 \alias{browse_categories}
 \title{Browse Categories}
 \usage{
-browse_categories(path = NULL, response_group = "Categories",
-  description = TRUE, ...)
+browse_categories(
+  path = NULL,
+  response_group = "Categories",
+  description = TRUE,
+  ...
+)
 }
 \arguments{
 \item{path}{String; Required; valid category path}
@@ -28,5 +32,5 @@ browse_categories(path="Top/Arts")
 }
 }
 \references{
-\url{http://docs.aws.amazon.com/AlexaWebInfoService/latest/index.html?ApiReference_CategoryBrowseAction.html}
+\url{https://docs.aws.amazon.com/AlexaWebInfoService/latest/index.html?ApiReference_CategoryBrowseAction.html}
 }
